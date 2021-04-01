@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'SatisfyRegular';
+  src: url('../Satisfy/Satisfy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+*,
+body,
+div {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: 'RobotoRegular';
+}
+
+span {
+  font-family: 'SatisfyRegular';
+  font-size: 1.5em;
+  position: fixed;
+  left: 40px;
+  top: 25px;
+}
+
+#main-div {
+  height: 100vh;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.half {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  width: 50%;
+  border: 0px;
+  float: left;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img-div {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+  right: 0px;
+  top: 0px;
+}
+
+#top-ul {
+  position: absolute;
+  display: block;
+  width: 40%;
+  top: 40px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+}
+
+#sec-ul {
+  position: relative;
+  display: inline;
+  width: 200px;
+}
+
+#top-ul li,
+#sec-ul li {
+  display: inline-block;
+  width: 100px;
+}
+
+.outer {
+  overflow: visible;
+  z-index: 2;
+  position: fixed;
+  left: 20px;
+  top: 220px;
+  background: black;
+  color: white;
+}
+
+.inner {
+  position: absolute;
+  bottom: 100%;
+  -webkit-transform: rotateZ(90deg);
+  transform-origin: 0 100%;
+  background: black;
+  white-space: nowrap;
+}
+
+.rotate {
+  -webkit-transform: rotate(180deg);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+ul li {
+  padding: 5px 10px;
+}
+
+
+#big-text1 {
+  margin-top: 50px;
+  font-family: 'SatisfyRegular';
+  font-size: 1.75em;
+}
+
+#big-text2 {
+  font-family: 'SatisfyRegular';
+  font-size: 2.25em;
+  color: #FFB6C1;
+}
+
+#main-text {
+  width: 60%;
+}
+
+.center-part {
+  position: relative;
+  left: 180px;
+  top: 90px;
+}
+
+#explore {
+  font-size: 1.75em;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #FFB6C1;
+  border-radius: 25%;
+  padding: 20px;
+}
+
+#explore:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#last-div {
+  margin-top: 50px;
+}
+
+#last-div hr {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 225px;
+  display: inline-block;
+}
+
+a {
+  decoration: none;
+  color: #FFB6C1;
+}
